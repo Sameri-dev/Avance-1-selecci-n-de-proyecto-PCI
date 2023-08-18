@@ -47,7 +47,7 @@ Con este proyecto se pretende hacer que el usuario desarrolle un nivel de atenci
 
 *Como dijimos anteriormente este programa seguirá corriendo en loop hasta que sea cerrado por el usuario.*
 
-Referencias: 
+# Referencias: 
 Libiano, J. E. (2022, March 23). Las capacidades cognitivas: qué son, tipos, funcionamiento y estimulación. Nueron Up. https://www.neuronup.com/estimulacion-y-rehabilitacion-cognitiva/las-capacidades-cognitivas-que-son-tipos-funcionamiento-y-estimulacion/
 G, R. (2019, August 19). Estudio afirma que juegos de lógica en línea ayudan a reducir la declinación cognitiva asociada a la vejez. Peru21 G21. https://g21.peru21.pe/respuestas/viral-youtube-juegos-logica-linea-extienden-juventud-cognitiva-personas-avanzada-edad-estudio-estados-unidos-espana-mexico-colombia-argentina-yt-yutube-ciencia-nnda-nnrt-video-497378-noticia/
 5.7. El ordenamiento burbuja — Solución de problemas con algoritmos y estructuras de datos. (n.d.). https://runestone.academy/ns/books/published/pythoned/SortSearch/ElOrdenamientoBurbuja.html
