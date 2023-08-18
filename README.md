@@ -1,4 +1,4 @@
-# Avance-1-seleccion-de-proyecto-PCI
+# Metodo Burbuja-PCI
 Samantha Erin Medina Muñoz A01712495
 
 Avance 1: Selecciona un tema para tu proyecto y setup de repositorio Describe su contexto y porque crees que es interesante. Escribe un algoritmo que describa tu proyecto.
