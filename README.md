@@ -47,10 +47,69 @@ Con este proyecto se pretende hacer que el usuario desarrolle un nivel de atenci
 
 *Como dijimos anteriormente este programa seguirá corriendo en loop hasta que sea cerrado por el usuario.*
 
+# Avance 2: Escribir los operadores que utilizara el programa 
+
+	Primero le debemos de mostrar la secuencia de numeros aleatorios al usuario y le pediremos que los ordene
+print('Ordene la siguiente secuencia:')
+
+	Para los numeros aleatorios utilizaremos el randrange(a, b, salto) que es una funcion que nos dara diferentes numeros aleatorios entre a y b y salto es el numero de numeros que van a tener de diferencia, lo empezaremos del 1 al 100 saltandose 3 asi ns dara un numero par y uno impar.
+
+secuencia=(randrange(1, 100, 3))
+
+ 	La de arriba es nuestra variable donde se produce el numero aleatorio
+ 
+print(secuencia)
+
+Entrada 
+
+	Se busca que el usuario introduzca la secuencia de numeros ya ordenadas, a esta linea se le conocera com linea a y se vera algo asi:
+
+ a=inp(input('Porfavor ingrese su respuesta'))
+
+Proceso
+
+	Ahora para el proceso se va a tener que utilizar 2 buclees para reorganizar a, podriamos tmabien reorganizar la secuencia original pero me parece mas rapido arreglar el numero insertado por el usuario para poder comprobarlo.
+
+ 	i=al recorrido o la iteracion y se va a ir acumulando
+
+  	p=es el bucle o iteracion que se va a encargar de analizar los numeros y los va a ir cambiando los numeros
+
+   	n=son las 
+
+
+while(a>1)
+
+	En la primera linea me refiero a que mientras el primer elemento de a sea mayor que 1 el programa va a seguir corriendo
+ 
+ for i (n-1)
+
+	primer bucle
+ 
+        for p (n-1-i)
+
+	segundo bucle 
+
+	    if (p) > (p+1)
+
+	comparacion
+	
+		(p), (p+1) = (p+1), (p)
+
+Salida
+
+A
+
+ 	Se desea que se muestre el resultado final al usuario
+
+
+	Considero que estos son los operadores que voy a estar utilizando para el trabajo sin embargo es posible que cambien o aumenten si le deseo poner animacion, sonidos, movimiento etc. al proyecto.
+ 
 # Referencias: 
 Libiano, J. E. (2022, March 23). Las capacidades cognitivas: qué son, tipos, funcionamiento y estimulación. Nueron Up. https://www.neuronup.com/estimulacion-y-rehabilitacion-cognitiva/las-capacidades-cognitivas-que-son-tipos-funcionamiento-y-estimulacion/
 G, R. (2019, August 19). Estudio afirma que juegos de lógica en línea ayudan a reducir la declinación cognitiva asociada a la vejez. Peru21 G21. https://g21.peru21.pe/respuestas/viral-youtube-juegos-logica-linea-extienden-juventud-cognitiva-personas-avanzada-edad-estudio-estados-unidos-espana-mexico-colombia-argentina-yt-yutube-ciencia-nnda-nnrt-video-497378-noticia/
 5.7. El ordenamiento burbuja — Solución de problemas con algoritmos y estructuras de datos. (n.d.). https://runestone.academy/ns/books/published/pythoned/SortSearch/ElOrdenamientoBurbuja.html
 Primaria, M. (2022, February 2). Juegos de ordenar y colocar para niños online y gratis. Mundo Primaria. https://www.mundoprimaria.com/juegos-educativos/juegos-de-memoria-infantiles/juegos-de-ordenar#:~:text=Los%20juegos%20de%20ordenar%20para,y%20la%20monitorizaci%C3%B3n%20y%20control.
 Mendoza, M. C. V. (2023, January 19). El desarrollo de la inteligencia lógico matemático mediante el juego en niños de educación inicial. https://dominiodelasciencias.com/ojs/index.php/es/article/view/3155
-
+J2logo. (2022, January 16). Generar números aleatorios en Python. Funciones principales. J2LOGO. https://j2logo.com/python/generar-numeros-aleatorios-en-python/
+Amorin, D. (2023). Ordenamiento de Burbuja en Python. Diego Amorin. https://diegoamorin.com/ordenamiento-burbuja-python/
+Bustamante, S. J. (2021). Guía de funciones de Python con ejemplos. freeCodeCamp.org. https://www.freecodecamp.org/espanol/news/guia-de-funciones-de-python-con-ejemplos/
