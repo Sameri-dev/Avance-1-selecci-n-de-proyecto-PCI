@@ -105,7 +105,7 @@ A
 	Considero que estos son los operadores que voy a estar utilizando para el trabajo sin embargo es posible que cambien o aumenten si le deseo poner animacion, sonidos, movimiento etc. al proyecto.
 
 
- #Avance3
+ # Avance3
 
 	Considero que las funciones que tengo ahorita son suficientes por el momento, una vez que pruebe el programa decidire si es necesario agregar o quitar funciones. 
  
