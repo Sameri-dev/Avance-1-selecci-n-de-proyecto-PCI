@@ -103,6 +103,11 @@ A
 
 
 	Considero que estos son los operadores que voy a estar utilizando para el trabajo sin embargo es posible que cambien o aumenten si le deseo poner animacion, sonidos, movimiento etc. al proyecto.
+
+
+ #Avance3
+
+	Considero que las funciones que tengo ahorita son suficientes por el momento, una vez que pruebe el programa decidire si es necesario agregar o quitar funciones. 
  
 # Referencias: 
 Libiano, J. E. (2022, March 23). Las capacidades cognitivas: qué son, tipos, funcionamiento y estimulación. Nueron Up. https://www.neuronup.com/estimulacion-y-rehabilitacion-cognitiva/las-capacidades-cognitivas-que-son-tipos-funcionamiento-y-estimulacion/
