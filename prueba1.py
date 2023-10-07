@@ -1,3 +1,10 @@
+def lista_numeros()
+lista = [] #la lista de numeros que se va a usar
+while lista < 7 #mientras los valores de lista no sena mayores o iguales a 7 se van a generar mas numeros
+    for contador in range (0, 101): #del 0 al 101 se generaran numeros
+        num_random = () 
+        lista = num_random #se van acumulando en lista
+
 numeros_preselectos = [6, 12, 20, 53, 62, 22, 13, 9, 0] #lista de /numeros preselectos
 
 print('Numeros seleccionados:', numeros_preselectos) #se presentan los numeros preselectos 
