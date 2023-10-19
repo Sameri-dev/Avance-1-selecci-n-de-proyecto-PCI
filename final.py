@@ -3,18 +3,18 @@ import random #importamos el modulo random para generar los numeros random
 def genera_lista_random(tamaño): #definimos la funcion que nos ayudara a generar los numeros random usando una variable de tama;o 
     return[random.randint(0, 100) for _ in range(tamaño)] #nos va a devolver una lista de numeros del 0 al 100 con el tama;o que especificaremos mas adelante
 
-def metodo_burbuja(lista, booleano): #definimos la funcion del metodo burbuja y le agregamos la variable lista donde se almacenaran los valores
-      numero = len(lista) #le asignamos a la variable numero la longitud de lo qu se ponga en la lista
+def metodo_burbuja(lista): #definimos la funcion del metodo burbuja y le agregamos la variable lista donde se almacenaran los valores
+    numero = len(lista) #le asignamos a la variable numero la longitud de lo qu se ponga en la lista
     for i in range(numero): #utilizamos for ya que no sabemos cuantas pasadas a la lista tendremos que hacer dentro del rango de numero
         for j in range(0, numero - i - 1): #para limitar el ciclo usamos que pase de 0 hasta el numero menos la posicion menos 1 asegurando que el numero mas grande sea el ultimo
             if lista[j] > lista[j + 1]: #checamos que dentro del ciclo el index j sea mayor que j + 1
                 lista[j], lista[j + 1] = lista[j + 1], lista[j] #si esto es verdad los cambiara de lugar asegurando que se acomoden de menor a mayor
 
-def main():
+def main(): #definimos la funcion main
     tamaño = 7 #Al fin le asignamos el tama;o de la lista
-    numeros_random = genera_lista_random(tamaño) #
+    numeros_random = genera_lista_random(tamaño)  
 
-    print("¡Bienvenido a este pequeño juego!") #Le damos la bienvenida al programa la usuario
+    print("¡Bienvenido a este pequeño juego!")  #Le damos la bienvenida al programa la usuario
     print(f"Deacuerdo a la siguiente lista: {numeros_random}") #Mostramos la lista de numeros
 
     numeros_acomodados = numeros_random.copy() #guardamos la lista de numeros en numeros acomodados
