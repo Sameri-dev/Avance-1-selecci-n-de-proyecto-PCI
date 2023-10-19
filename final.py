@@ -4,16 +4,11 @@ def genera_lista_random(tamaño): #definimos la funcion que nos ayudara a genera
     return[random.randint(0, 100) for _ in range(tamaño)] #nos va a devolver una lista de numeros del 0 al 100 con el tama;o que especificaremos mas adelante
 
 def metodo_burbuja(lista, booleano): #definimos la funcion del metodo burbuja y le agregamos la variable lista donde se almacenaran los valores
-    booleano = False #variable con un valor boooleano falso que si entra en el if sigue estando desordenado
-
-    while booleano == False: #repetir esto n veces mientras la bandera o la variable bandera sea falso
-        booleano = True #dejara de marcar falso cuando deje de entrar en el if
-        for i in range(len(lista)-1): #para que i tenga la posicion designada por posicion (menos 1 por comparacion)
-            if lista[i] > lista[i + 1]: #si la lista del elemento que estas iterando es mayor al elemento de la lista entras a la condicion
-                guardado = lista[i] #la variable aux va a guaradar el valor dle elemento anterior para que no lo perdamos
-                lista[i] = lista[i + 1] #si es asi necesito que hagas el intercambi del valor del elemento a la derecha
-                lista[i + 1] = guardado #el elemetno a la derecha del que se esta iterando actualmente va a avaler aux pq es el valor mas grande, el original
-            booleano = False #sigue estando desordenado
+      numero = len(lista) #le asignamos a la variable numero la longitud de lo qu se ponga en la lista
+    for i in range(numero): #utilizamos for ya que no sabemos cuantas pasadas a la lista tendremos que hacer dentro del rango de numero
+        for j in range(0, numero - i - 1): #para limitar el ciclo usamos que pase de 0 hasta el numero menos la posicion menos 1 asegurando que el numero mas grande sea el ultimo
+            if lista[j] > lista[j + 1]: #checamos que dentro del ciclo el index j sea mayor que j + 1
+                lista[j], lista[j + 1] = lista[j + 1], lista[j] #si esto es verdad los cambiara de lugar asegurando que se acomoden de menor a mayor
 
 def main():
     tamaño = 7 #Al fin le asignamos el tama;o de la lista
