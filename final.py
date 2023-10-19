@@ -29,5 +29,5 @@ def main():
     else: #sino
         print("Lo siento tu arreglo no es correcto. La respuesta correcta es: ", numeros_random) #Le mostraremos la respuesta
         
-if __name__ == "__main__": #curiosamente en mi investigacion me encontr con esta funcion la cual se supone que hace que al momento de correr el programa sea mas exacto (sobretos cuando corremos main) entonces decidi probarla
-    main()
+if __name__ == "__main__": #checamos que el codigo sea corrido como el programa principal (name es una variable ya impuesta y cuando se le compara con main los iguala)
+    main() #si lo de arriba es verdad correra el programa esto garantiza que corra de todas maneras
