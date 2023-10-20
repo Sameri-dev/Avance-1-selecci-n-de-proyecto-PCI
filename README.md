@@ -1,5 +1,6 @@
 # Metodo Burbuja-PCI
 Samantha Erin Medina Muñoz A01712495
+#Si puediera revisar practicamente todo (planteo de la situacion, creacion del repositor, operadores aritmeticos, funciones, condicionales, while, for, listas, comentarios, normas) en este caso no utilice ni matrices
 
 Avance 1: Selecciona un tema para tu proyecto y setup de repositorio Describe su contexto y porque crees que es interesante. Escribe un algoritmo que describa tu proyecto.
 
